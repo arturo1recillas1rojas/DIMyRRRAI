@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TAREA1 E1", "TAREA1 E1\TAREA1 E1.vcxproj", "{E8F1D9D2-91F4-44CB-8A3E-234205DE3B1C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectTemplate1", "ProjectTemplate1\ProjectTemplate1.vcxproj", "{C153B614-4D60-4B3F-A9DF-97C9E76DD62B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadTexture", "LoadTexture\LoadTexture.vcxproj", "{BB294DCD-6585-43F1-9B4F-E55051F3BC8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8F1D9D2-91F4-44CB-8A3E-234205DE3B1C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8F1D9D2-91F4-44CB-8A3E-234205DE3B1C}.Debug|Win32.Build.0 = Debug|Win32
+		{E8F1D9D2-91F4-44CB-8A3E-234205DE3B1C}.Release|Win32.ActiveCfg = Release|Win32
+		{E8F1D9D2-91F4-44CB-8A3E-234205DE3B1C}.Release|Win32.Build.0 = Release|Win32
+		{C153B614-4D60-4B3F-A9DF-97C9E76DD62B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C153B614-4D60-4B3F-A9DF-97C9E76DD62B}.Debug|Win32.Build.0 = Debug|Win32
+		{C153B614-4D60-4B3F-A9DF-97C9E76DD62B}.Release|Win32.ActiveCfg = Release|Win32
+		{C153B614-4D60-4B3F-A9DF-97C9E76DD62B}.Release|Win32.Build.0 = Release|Win32
+		{BB294DCD-6585-43F1-9B4F-E55051F3BC8F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB294DCD-6585-43F1-9B4F-E55051F3BC8F}.Debug|Win32.Build.0 = Debug|Win32
+		{BB294DCD-6585-43F1-9B4F-E55051F3BC8F}.Release|Win32.ActiveCfg = Release|Win32
+		{BB294DCD-6585-43F1-9B4F-E55051F3BC8F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
