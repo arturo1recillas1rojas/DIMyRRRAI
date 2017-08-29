@@ -68,6 +68,28 @@ bool GLFWManager::processInput(bool continueApplication = true) {
 			|| glfwWindowShouldClose(window) != 0) {
 		return false;
 	}
+	//Color Rojo oscuro al press => R
+	if (glfwGetKey(window, GLFW_KEY_R) == GLFW_PRESS
+		|| glfwWindowShouldClose(window) != 0) {
+		glClearColor(0.4, 0.0, 0.0, 0.0);
+	}//Color Verde oscuro al press => G
+	if (glfwGetKey(window, GLFW_KEY_G) == GLFW_PRESS
+		|| glfwWindowShouldClose(window) != 0) {
+		glClearColor(0.0, 0.4, 0.0, 0.0);
+	}//Color Azul oscuro al press => B
+	if (glfwGetKey(window, GLFW_KEY_B) == GLFW_PRESS
+		|| glfwWindowShouldClose(window) != 0) {
+		glClearColor(0.0, 0.0, 0.4, 0.0);
+	}//Color Violeta oscuro al press => V
+	if (glfwGetKey(window, GLFW_KEY_V) == GLFW_PRESS
+		|| glfwWindowShouldClose(window) != 0) {
+		glClearColor(0.3, 0.0, 0.5, 0.0);
+	}//Color Amarillo oscuro al press => Y
+	if (glfwGetKey(window, GLFW_KEY_Y) == GLFW_PRESS
+		|| glfwWindowShouldClose(window) != 0) {
+		glClearColor(1.0, 0.7, 0.0, 0.0);
+	}
+
 	glfwPollEvents();
 
 	return continueApplication;
